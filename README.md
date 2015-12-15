@@ -418,4 +418,35 @@ loop time: 0.010014 seconds, used cpu time: 0.000098 seconds
 
 ### remote oneway
 ```
+loop time: 0.009931 seconds, used cpu time: 0.000156 seconds
+loop time: 0.009920 seconds, used cpu time: 0.000360 seconds
+499
+loop time: 0.009986 seconds, used cpu time: 0.000294 seconds
+500
+loop time: 0.009951 seconds, used cpu time: 0.000219 seconds
+501
+loop time: 0.010024 seconds, used cpu time: 0.000060 seconds
+loop time: 0.009965 seconds, used cpu time: 0.000413 seconds
+503
+loop time: 0.009881 seconds, used cpu time: 0.000151 seconds
+504
+loop time: 0.010000 seconds, used cpu time: 0.000039 seconds
+loop time: 0.010001 seconds, used cpu time: 0.000254 seconds
+506
+loop time: 0.009932 seconds, used cpu time: 0.000037 seconds
+loop time: 0.010039 seconds, used cpu time: 0.000275 seconds
+508
+loop time: 0.009932 seconds, used cpu time: 0.000264 seconds
+509
+loop time: 0.009915 seconds, used cpu time: 0.000190 seconds
+510
+loop time: 0.009993 seconds, used cpu time: 0.000065 seconds
+loop time: 0.009980 seconds, used cpu time: 0.000384 seconds
+512
+loop time: 0.009960 seconds, used cpu time: 0.000064 seconds
+loop time: 0.009992 seconds, used cpu time: 0.000208 seconds
+513
+loop time: 0.009980 seconds, used cpu time: 0.000347 seconds
+515
+
 ```
