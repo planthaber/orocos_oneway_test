@@ -12,10 +12,7 @@ if ARGV.size == 1
     else
         host_address = ARGV[0]
         Orocos::name_service << Orocos::CORBA::NameService.new(host_address)
-        Orocos::Async.name_service << Orocos::Async::CORBA::NameService.new(host_address)
     end
-else
-  Orocos::Async.name_service << Orocos::Async::CORBA::NameService.new('127.0.0.1')
 end
 
 Bundles.run 'oneway_test::Task' => 'onway_send', :output => nil do
