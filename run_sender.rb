@@ -15,14 +15,17 @@ if ARGV.size == 1
     end
 end
 
-Bundles.run 'oneway_test::Task' => 'onway_send', :output => nil do
+Bundles.run 'oneway_test::Task' => 'oneway_send' do
 
               
-    send = Orocos.name_service.get 'onway_send'
+    send = Orocos.name_service.get 'oneway_send'
     recv = Orocos.name_service.get 'onway_recv'
+    lrecv = Orocos.name_service.get 'oneway_recv_local'
     
     
+    send.output.connect_to lrecv.input
     send.output.connect_to recv.input
+    
     
     send.start
     
