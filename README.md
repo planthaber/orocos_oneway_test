@@ -332,5 +332,90 @@ loop time: 0.009962 seconds, used cpu time: 0.000100 seconds
 
 ```
 
+## dual receiver
 
+here, two receivers are used on remote and one locally
 
+### local oneway
+```
+1686
+loop time: 0.010008 seconds, used cpu time: 0.000133 seconds
+1687
+loop time: 0.009973 seconds, used cpu time: 0.000163 seconds
+1688
+loop time: 0.009919 seconds, used cpu time: 0.000151 seconds
+1689
+loop time: 0.009982 seconds, used cpu time: 0.000174 seconds
+1690
+loop time: 0.009979 seconds, used cpu time: 0.000126 seconds
+1691
+loop time: 0.009969 seconds, used cpu time: 0.000103 seconds
+1692
+loop time: 0.009977 seconds, used cpu time: 0.000072 seconds
+1693
+loop time: 0.009939 seconds, used cpu time: 0.000090 seconds
+1694
+loop time: 0.010001 seconds, used cpu time: 0.000122 seconds
+1695
+loop time: 0.009987 seconds, used cpu time: 0.000115 seconds
+1696
+loop time: 0.010014 seconds, used cpu time: 0.000177 seconds
+1697
+loop time: 0.009886 seconds, used cpu time: 0.000079 seconds
+1698
+loop time: 0.009980 seconds, used cpu time: 0.000060 seconds
+1699
+loop time: 0.010005 seconds, used cpu time: 0.000092 seconds
+1700
+loop time: 0.009969 seconds, used cpu time: 0.000083 seconds
+1701
+loop time: 0.009968 seconds, used cpu time: 0.000165 seconds
+1702
+loop time: 0.010009 seconds, used cpu time: 0.000175 seconds
+1703
+loop time: 0.010007 seconds, used cpu time: 0.000096 seconds
+1704
+loop time: 0.009966 seconds, used cpu time: 0.000182 seconds
+1705
+loop time: 0.009994 seconds, used cpu time: 0.000100 seconds
+1706
+loop time: 0.009922 seconds, used cpu time: 0.000279 seconds
+1707
+loop time: 0.009988 seconds, used cpu time: 0.000099 seconds
+1708
+loop time: 0.009979 seconds, used cpu time: 0.000108 seconds
+1709
+loop time: 0.009992 seconds, used cpu time: 0.000101 seconds
+1710
+loop time: 0.009978 seconds, used cpu time: 0.000127 seconds
+1711
+loop time: 0.009957 seconds, used cpu time: 0.000126 seconds
+1712
+loop time: 0.009981 seconds, used cpu time: 0.000072 seconds
+1713
+loop time: 0.009932 seconds, used cpu time: 0.000159 seconds
+1714
+loop time: 0.009926 seconds, used cpu time: 0.000127 seconds
+1715
+loop time: 0.009933 seconds, used cpu time: 0.000097 seconds
+1716
+loop time: 0.009970 seconds, used cpu time: 0.000124 seconds
+1717
+loop time: 0.010016 seconds, used cpu time: 0.000170 seconds
+1718
+loop time: 0.009938 seconds, used cpu time: 0.000091 seconds
+1719
+loop time: 0.010010 seconds, used cpu time: 0.000140 seconds
+1720
+loop time: 0.009935 seconds, used cpu time: 0.000121 seconds
+1721
+loop time: 0.009977 seconds, used cpu time: 0.000111 seconds
+1722
+loop time: 0.010014 seconds, used cpu time: 0.000098 seconds
+1723
+
+```
+
+### remote oneway
+```
+```
